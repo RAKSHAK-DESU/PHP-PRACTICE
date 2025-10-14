@@ -6,7 +6,7 @@
                 display: flex;
                 flex-wrap: wrap;
             }
-            .tables{
+            .table{
                 border: 1px solid;
                 margin: 10px;
                 padding: 10px;
@@ -21,10 +21,10 @@
         <div class="blocks">
             <?php
                 for ($j=2; $j <=20 ; $j++) { 
-                    $tables= $j;
+                    $table= $j;
                     echo "<div class='table'>";
                     for ($i=1; $i <=10 ; $i++) { 
-                        echo $tables."*".$i."=".$tables*$i."<br>";
+                        echo $table."*".$i."=".$table*$i."<br>";
                     }
                     echo "</div>";
                 }
